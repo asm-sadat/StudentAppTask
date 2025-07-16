@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Project\\ASP.NET\\StudentAppAuth\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{45244438-51F0-4A22-AD5B-94D98639F174}|StudentAppAuth\\StudentAppAuth.csproj|d:\\project\\asp.net\\studentappauth\\studentappauth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45244438-51F0-4A22-AD5B-94D98639F174}|StudentAppAuth\\StudentAppAuth.csproj|solutionrelative:studentappauth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45244438-51F0-4A22-AD5B-94D98639F174}|StudentAppAuth\\StudentAppAuth.csproj|d:\\project\\asp.net\\studentappauth\\studentappauth\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{45244438-51F0-4A22-AD5B-94D98639F174}|StudentAppAuth\\StudentAppAuth.csproj|solutionrelative:studentappauth\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45244438-51F0-4A22-AD5B-94D98639F174}|StudentAppAuth\\StudentAppAuth.csproj|d:\\project\\asp.net\\studentappauth\\studentappauth\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45244438-51F0-4A22-AD5B-94D98639F174}|StudentAppAuth\\StudentAppAuth.csproj|solutionrelative:studentappauth\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\StudentAppAuth\\StudentAppAuth\\Program.cs",
+              "RelativeDocumentMoniker": "StudentAppAuth\\Program.cs",
+              "ToolTip": "D:\\Project\\ASP.NET\\StudentAppAuth\\StudentAppAuth\\Program.cs",
+              "RelativeToolTip": "StudentAppAuth\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T12:03:47.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\StudentAppAuth\\StudentAppAuth\\appsettings.json",
+              "RelativeDocumentMoniker": "StudentAppAuth\\appsettings.json",
+              "ToolTip": "D:\\Project\\ASP.NET\\StudentAppAuth\\StudentAppAuth\\appsettings.json",
+              "RelativeToolTip": "StudentAppAuth\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-15T12:03:29.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthDbContext.cs",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\StudentAppAuth\\StudentAppAuth\\Data\\AuthDbContext.cs",
+              "RelativeDocumentMoniker": "StudentAppAuth\\Data\\AuthDbContext.cs",
+              "ToolTip": "D:\\Project\\ASP.NET\\StudentAppAuth\\StudentAppAuth\\Data\\AuthDbContext.cs",
+              "RelativeToolTip": "StudentAppAuth\\Data\\AuthDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T11:42:37.321Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
