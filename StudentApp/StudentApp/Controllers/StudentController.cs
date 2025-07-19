@@ -23,6 +23,7 @@ namespace StudentApp.Controllers
         public async Task<IActionResult> GetAllStudents()
         {
             var studentsModel = await _dbContext.Students.ToListAsync();
+            // var studentsModel = await _dbContext.Students.Where(x => x.Id == 1).Select(y => y.Name).ToListAsync();
 
             var studentDto = new List<StudentDTO>();
             foreach (var studentModel in studentsModel)

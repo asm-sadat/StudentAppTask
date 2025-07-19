@@ -1,5 +1,37 @@
 [
   {
+    "ContainingType": "StudentApp.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginRequestDto",
+        "Type": "StudentApp.DTOs.AuthDTOs.LoginRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentApp.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/Regiter",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerRequestDto",
+        "Type": "StudentApp.DTOs.AuthDTOs.RegisterRequestDtos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "StudentApp.Controllers.CourseController",
     "Method": "GetAllCourses",
     "RelativePath": "api/Course",

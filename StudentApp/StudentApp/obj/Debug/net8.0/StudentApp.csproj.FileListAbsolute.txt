@@ -290,3 +290,10 @@ D:\Project\ASP.NET\StudentProject\StudentApp\StudentApp\obj\Debug\net8.0\refint\
 D:\Project\ASP.NET\StudentProject\StudentApp\StudentApp\obj\Debug\net8.0\StudentApp.pdb
 D:\Project\ASP.NET\StudentProject\StudentApp\StudentApp\obj\Debug\net8.0\StudentApp.genruntimeconfig.cache
 D:\Project\ASP.NET\StudentProject\StudentApp\StudentApp\obj\Debug\net8.0\ref\StudentApp.dll
+D:\Project\ASP.NET\StudentApp\StudentApp\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Project\ASP.NET\StudentApp\StudentApp\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Project\ASP.NET\StudentApp\StudentApp\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Project\ASP.NET\StudentApp\StudentApp\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Project\ASP.NET\StudentApp\StudentApp\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\Project\ASP.NET\StudentApp\StudentApp\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Project\ASP.NET\StudentApp\StudentApp\obj\Debug\net8.0\StudentApp.sourcelink.json

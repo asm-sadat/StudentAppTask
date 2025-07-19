@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StudentAppAuth")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0fd3e4b95d562ea97288921a8a3722150237bee4")]
 [assembly: System.Reflection.AssemblyProductAttribute("StudentAppAuth")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StudentAppAuth")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
