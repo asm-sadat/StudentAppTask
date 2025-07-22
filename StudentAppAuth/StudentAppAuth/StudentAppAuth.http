@@ -1,6 +1,0 @@
-@StudentAppAuth_HostAddress = http://localhost:5240
-
-GET {{StudentAppAuth_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

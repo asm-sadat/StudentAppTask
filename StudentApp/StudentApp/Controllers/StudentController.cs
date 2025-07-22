@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using StudentApp.DataAccessLayer;
@@ -19,6 +20,7 @@ namespace StudentApp.Controllers
             _dbContext = dbContext;
         }
 
+        [Authorize]
         [HttpGet]
         public async Task<IActionResult> GetAllStudents()
         {
@@ -41,6 +43,7 @@ namespace StudentApp.Controllers
             return Ok(studentDto);
         }
 
+        [Authorize]
         [HttpGet("{id}")]
         public async Task<IActionResult> GetStudentsById(int id)
         {
@@ -62,6 +65,7 @@ namespace StudentApp.Controllers
             return Ok(studentDto);
         }
 
+        [Authorize]
         [HttpPost]
         public async Task<IActionResult> AddStudent([FromBody] AddStudentRequestDto addStudentRequestDto)
         {
@@ -93,6 +97,7 @@ namespace StudentApp.Controllers
             return CreatedAtAction(nameof(GetStudentsById),new { id = studentDto.Id }, studentDto);
         }
 
+        [Authorize]
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateStudent(int id, [FromBody] UpdateStudentRequestDto updatedStudentRequestDto)
         {
@@ -126,6 +131,7 @@ namespace StudentApp.Controllers
             return CreatedAtAction(nameof(GetStudentsById), new { id = studentDto.Id }, studentDto);
         }
 
+        [Authorize]
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteStudent(int id)
         {

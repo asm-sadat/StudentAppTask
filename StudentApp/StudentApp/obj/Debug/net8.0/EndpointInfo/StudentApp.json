@@ -5,26 +5,35 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Auth/Regiter": {
+    "/api/BulkStudent/bulk": {
       "post": {
         "tags": [
-          "Auth"
+          "BulkStudent"
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/RegisterRequestDtos"
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/AddStudentRequestDto"
+                }
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/RegisterRequestDtos"
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/AddStudentRequestDto"
+                }
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/RegisterRequestDtos"
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/AddStudentRequestDto"
+                }
               }
             }
           }
@@ -34,28 +43,64 @@
             "description": "OK"
           }
         }
-      }
-    },
-    "/api/Auth/Login": {
-      "post": {
+      },
+      "put": {
         "tags": [
-          "Auth"
+          "BulkStudent"
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/LoginRequestDto"
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/UpdateBulkStudentDto"
+                }
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/LoginRequestDto"
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/UpdateBulkStudentDto"
+                }
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/LoginRequestDto"
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/UpdateBulkStudentDto"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "BulkStudent"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/IdRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/IdRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/IdRequestDto"
               }
             }
           }
@@ -371,54 +416,48 @@
         },
         "additionalProperties": false
       },
-      "LoginRequestDto": {
-        "required": [
-          "email",
-          "password"
-        ],
+      "IdRequestDto": {
         "type": "object",
         "properties": {
-          "email": {
-            "minLength": 1,
-            "type": "string",
-            "format": "email"
-          },
-          "password": {
-            "minLength": 1,
-            "type": "string",
-            "format": "password"
+          "ids": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "nullable": true
           }
         },
         "additionalProperties": false
       },
-      "RegisterRequestDtos": {
+      "UpdateBulkStudentDto": {
         "required": [
           "email",
-          "password",
-          "roles",
-          "username"
+          "name",
+          "phone"
         ],
         "type": "object",
         "properties": {
-          "username": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "age": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "phone": {
             "minLength": 1,
             "type": "string"
           },
           "email": {
             "minLength": 1,
-            "type": "string",
-            "format": "email"
-          },
-          "password": {
-            "minLength": 1,
-            "type": "string",
-            "format": "password"
-          },
-          "roles": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
+            "type": "string"
           }
         },
         "additionalProperties": false

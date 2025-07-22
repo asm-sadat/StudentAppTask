@@ -3,18 +3,6 @@
   "WorkspaceRootPath": "D:\\Project\\ASP.NET\\StudentApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2CB0FC9D-B58A-41BC-AC37-747E087EF1F1}|StudentApp\\StudentApp.csproj|d:\\project\\asp.net\\studentapp\\studentapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CB0FC9D-B58A-41BC-AC37-747E087EF1F1}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CB0FC9D-B58A-41BC-AC37-747E087EF1F1}|StudentApp\\StudentApp.csproj|d:\\project\\asp.net\\studentapp\\studentapp\\dataaccesslayer\\studentauthdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CB0FC9D-B58A-41BC-AC37-747E087EF1F1}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\dataaccesslayer\\studentauthdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CB0FC9D-B58A-41BC-AC37-747E087EF1F1}|StudentApp\\StudentApp.csproj|d:\\project\\asp.net\\studentapp\\studentapp\\repositories\\itokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CB0FC9D-B58A-41BC-AC37-747E087EF1F1}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\repositories\\itokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2CB0FC9D-B58A-41BC-AC37-747E087EF1F1}|StudentApp\\StudentApp.csproj|d:\\project\\asp.net\\studentapp\\studentapp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CB0FC9D-B58A-41BC-AC37-747E087EF1F1}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,44 +11,24 @@
       "RelativeMoniker": "D:0:0:{2CB0FC9D-B58A-41BC-AC37-747E087EF1F1}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\dtos\\studentdtos\\updatestudentrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2CB0FC9D-B58A-41BC-AC37-747E087EF1F1}|StudentApp\\StudentApp.csproj|d:\\project\\asp.net\\studentapp\\studentapp\\controllers\\bulkstudentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CB0FC9D-B58A-41BC-AC37-747E087EF1F1}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\controllers\\bulkstudentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CB0FC9D-B58A-41BC-AC37-747E087EF1F1}|StudentApp\\StudentApp.csproj|d:\\project\\asp.net\\studentapp\\studentapp\\dtos\\studentdtos\\updatebulkstudentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CB0FC9D-B58A-41BC-AC37-747E087EF1F1}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\dtos\\studentdtos\\updatebulkstudentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CB0FC9D-B58A-41BC-AC37-747E087EF1F1}|StudentApp\\StudentApp.csproj|d:\\project\\asp.net\\studentapp\\studentapp\\dtos\\studentdtos\\idrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CB0FC9D-B58A-41BC-AC37-747E087EF1F1}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\dtos\\studentdtos\\idrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2CB0FC9D-B58A-41BC-AC37-747E087EF1F1}|StudentApp\\StudentApp.csproj|d:\\project\\asp.net\\studentapp\\studentapp\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CB0FC9D-B58A-41BC-AC37-747E087EF1F1}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CB0FC9D-B58A-41BC-AC37-747E087EF1F1}|StudentApp\\StudentApp.csproj|d:\\project\\asp.net\\studentapp\\studentapp\\dtos\\coursedtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CB0FC9D-B58A-41BC-AC37-747E087EF1F1}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\dtos\\coursedtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CB0FC9D-B58A-41BC-AC37-747E087EF1F1}|StudentApp\\StudentApp.csproj|d:\\project\\asp.net\\studentapp\\studentapp\\dataaccesslayer\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CB0FC9D-B58A-41BC-AC37-747E087EF1F1}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\dataaccesslayer\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CB0FC9D-B58A-41BC-AC37-747E087EF1F1}|StudentApp\\StudentApp.csproj|d:\\project\\asp.net\\studentapp\\studentapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2CB0FC9D-B58A-41BC-AC37-747E087EF1F1}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CB0FC9D-B58A-41BC-AC37-747E087EF1F1}|StudentApp\\StudentApp.csproj|d:\\project\\asp.net\\studentapp\\studentapp\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CB0FC9D-B58A-41BC-AC37-747E087EF1F1}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CB0FC9D-B58A-41BC-AC37-747E087EF1F1}|StudentApp\\StudentApp.csproj|d:\\project\\asp.net\\studentapp\\studentapp\\dtos\\authdtos\\registerrequestdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CB0FC9D-B58A-41BC-AC37-747E087EF1F1}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\dtos\\authdtos\\registerrequestdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CB0FC9D-B58A-41BC-AC37-747E087EF1F1}|StudentApp\\StudentApp.csproj|d:\\project\\asp.net\\studentapp\\studentapp\\dtos\\authdtos\\loginresponedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CB0FC9D-B58A-41BC-AC37-747E087EF1F1}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\dtos\\authdtos\\loginresponedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2CB0FC9D-B58A-41BC-AC37-747E087EF1F1}|StudentApp\\StudentApp.csproj|d:\\project\\asp.net\\studentapp\\studentapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CB0FC9D-B58A-41BC-AC37-747E087EF1F1}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CB0FC9D-B58A-41BC-AC37-747E087EF1F1}|StudentApp\\StudentApp.csproj|d:\\project\\asp.net\\studentapp\\studentapp\\dtos\\authdtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CB0FC9D-B58A-41BC-AC37-747E087EF1F1}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\dtos\\authdtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CB0FC9D-B58A-41BC-AC37-747E087EF1F1}|StudentApp\\StudentApp.csproj|d:\\project\\asp.net\\studentapp\\studentapp\\studentapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{2CB0FC9D-B58A-41BC-AC37-747E087EF1F1}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\studentapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,91 +42,42 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ITokenRepository.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\StudentApp\\StudentApp\\Repositories\\ITokenRepository.cs",
-              "RelativeDocumentMoniker": "StudentApp\\Repositories\\ITokenRepository.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\StudentApp\\StudentApp\\Repositories\\ITokenRepository.cs",
-              "RelativeToolTip": "StudentApp\\Repositories\\ITokenRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T04:26:27.73Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "LoginRequestDto.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\StudentApp\\StudentApp\\DTOs\\AuthDTOs\\LoginRequestDto.cs",
-              "RelativeDocumentMoniker": "StudentApp\\DTOs\\AuthDTOs\\LoginRequestDto.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\StudentApp\\StudentApp\\DTOs\\AuthDTOs\\LoginRequestDto.cs",
-              "RelativeToolTip": "StudentApp\\DTOs\\AuthDTOs\\LoginRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T04:17:23.264Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "UpdateStudentRequestDto.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\StudentApp\\StudentApp\\DTOs\\StudentDTOs\\UpdateStudentRequestDto.cs",
               "RelativeDocumentMoniker": "StudentApp\\DTOs\\StudentDTOs\\UpdateStudentRequestDto.cs",
               "ToolTip": "D:\\Project\\ASP.NET\\StudentApp\\StudentApp\\DTOs\\StudentDTOs\\UpdateStudentRequestDto.cs",
               "RelativeToolTip": "StudentApp\\DTOs\\StudentDTOs\\UpdateStudentRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T06:53:04.051Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StudentAuthDbContext.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\StudentApp\\StudentApp\\DataAccessLayer\\StudentAuthDbContext.cs",
-              "RelativeDocumentMoniker": "StudentApp\\DataAccessLayer\\StudentAuthDbContext.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\StudentApp\\StudentApp\\DataAccessLayer\\StudentAuthDbContext.cs",
-              "RelativeToolTip": "StudentApp\\DataAccessLayer\\StudentAuthDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T17:51:30.363Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\StudentApp\\StudentApp\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "StudentApp\\Controllers\\AuthController.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\StudentApp\\StudentApp\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "StudentApp\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAArwBgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T03:56:14.886Z",
+              "WhenOpened": "2025-07-22T11:20:07.714Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\StudentApp\\StudentApp\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "StudentApp\\Controllers\\StudentController.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\StudentApp\\StudentApp\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "StudentApp\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBkAAAB1AAAAAAAAAA==",
+              "Title": "UpdateBulkStudentDto.cs",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\StudentApp\\StudentApp\\DTOs\\StudentDTOs\\UpdateBulkStudentDto.cs",
+              "RelativeDocumentMoniker": "StudentApp\\DTOs\\StudentDTOs\\UpdateBulkStudentDto.cs",
+              "ToolTip": "D:\\Project\\ASP.NET\\StudentApp\\StudentApp\\DTOs\\StudentDTOs\\UpdateBulkStudentDto.cs",
+              "RelativeToolTip": "StudentApp\\DTOs\\StudentDTOs\\UpdateBulkStudentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T06:53:40.639Z",
+              "WhenOpened": "2025-07-22T11:19:51.6Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CourseDTO.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\StudentApp\\StudentApp\\DTOs\\CourseDTOs\\CourseDTO.cs",
-              "RelativeDocumentMoniker": "StudentApp\\DTOs\\CourseDTOs\\CourseDTO.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\StudentApp\\StudentApp\\DTOs\\CourseDTOs\\CourseDTO.cs",
-              "RelativeToolTip": "StudentApp\\DTOs\\CourseDTOs\\CourseDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "IdRequestDto.cs",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\StudentApp\\StudentApp\\DTOs\\StudentDTOs\\IdRequestDto.cs",
+              "RelativeDocumentMoniker": "StudentApp\\DTOs\\StudentDTOs\\IdRequestDto.cs",
+              "ToolTip": "D:\\Project\\ASP.NET\\StudentApp\\StudentApp\\DTOs\\StudentDTOs\\IdRequestDto.cs",
+              "RelativeToolTip": "StudentApp\\DTOs\\StudentDTOs\\IdRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T06:52:18.878Z"
+              "WhenOpened": "2025-07-22T11:02:59.318Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -170,90 +89,47 @@
               "RelativeToolTip": "StudentApp\\Models\\Student.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T06:52:27.582Z"
+              "WhenOpened": "2025-07-22T10:51:09.01Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RegisterRequestDtos.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\StudentApp\\StudentApp\\DTOs\\AuthDTOs\\RegisterRequestDtos.cs",
-              "RelativeDocumentMoniker": "StudentApp\\DTOs\\AuthDTOs\\RegisterRequestDtos.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\StudentApp\\StudentApp\\DTOs\\AuthDTOs\\RegisterRequestDtos.cs",
-              "RelativeToolTip": "StudentApp\\DTOs\\AuthDTOs\\RegisterRequestDtos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\StudentApp\\StudentApp\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "StudentApp\\Controllers\\StudentController.cs",
+              "ToolTip": "D:\\Project\\ASP.NET\\StudentApp\\StudentApp\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "StudentApp\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwBYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T03:57:32.472Z"
+              "WhenOpened": "2025-07-21T09:57:06.563Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\StudentApp\\StudentApp\\appsettings.json",
-              "RelativeDocumentMoniker": "StudentApp\\appsettings.json",
-              "ToolTip": "D:\\Project\\ASP.NET\\StudentApp\\StudentApp\\appsettings.json",
-              "RelativeToolTip": "StudentApp\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-16T17:39:47.277Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\StudentApp\\StudentApp\\DataAccessLayer\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "StudentApp\\DataAccessLayer\\AppDbContext.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\StudentApp\\StudentApp\\DataAccessLayer\\AppDbContext.cs",
-              "RelativeToolTip": "StudentApp\\DataAccessLayer\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABQAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "BulkStudentController.cs",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\StudentApp\\StudentApp\\Controllers\\BulkStudentController.cs",
+              "RelativeDocumentMoniker": "StudentApp\\Controllers\\BulkStudentController.cs",
+              "ToolTip": "D:\\Project\\ASP.NET\\StudentApp\\StudentApp\\Controllers\\BulkStudentController.cs",
+              "RelativeToolTip": "StudentApp\\Controllers\\BulkStudentController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAqwBUAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T17:04:09.854Z"
+              "WhenOpened": "2025-07-21T09:45:58.479Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CourseController.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\StudentApp\\StudentApp\\Controllers\\CourseController.cs",
-              "RelativeDocumentMoniker": "StudentApp\\Controllers\\CourseController.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\StudentApp\\StudentApp\\Controllers\\CourseController.cs",
-              "RelativeToolTip": "StudentApp\\Controllers\\CourseController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T06:49:45.173Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "LoginResponeDto.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\StudentApp\\StudentApp\\DTOs\\AuthDTOs\\LoginResponeDto.cs",
-              "RelativeDocumentMoniker": "StudentApp\\DTOs\\AuthDTOs\\LoginResponeDto.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\StudentApp\\StudentApp\\DTOs\\AuthDTOs\\LoginResponeDto.cs",
-              "RelativeToolTip": "StudentApp\\DTOs\\AuthDTOs\\LoginResponeDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T04:45:02.05Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "StudentApp",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\StudentApp\\StudentApp\\StudentApp.csproj",
-              "RelativeDocumentMoniker": "StudentApp\\StudentApp.csproj",
-              "ToolTip": "D:\\Project\\ASP.NET\\StudentApp\\StudentApp\\StudentApp.csproj",
-              "RelativeToolTip": "StudentApp\\StudentApp.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-16T17:48:21.927Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\StudentApp\\StudentApp\\Program.cs",
               "RelativeDocumentMoniker": "StudentApp\\Program.cs",
               "ToolTip": "D:\\Project\\ASP.NET\\StudentApp\\StudentApp\\Program.cs",
               "RelativeToolTip": "StudentApp\\Program.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAABYAAABXAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAkwB4AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T09:49:36.509Z"
+              "WhenOpened": "2025-07-21T08:45:58.886Z",
+              "EditorCaption": ""
             }
           ]
         }

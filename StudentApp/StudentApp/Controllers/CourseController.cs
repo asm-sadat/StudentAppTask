@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using StudentApp.DataAccessLayer;
@@ -18,6 +19,7 @@ namespace StudentApp.Controllers
             _dbContext = dbContext;
         }
 
+        [Authorize]
         [HttpGet]
         public async Task<IActionResult> GetAllCourses()
         {
@@ -37,6 +39,7 @@ namespace StudentApp.Controllers
             return Ok(courseDto);
         }
 
+        [Authorize]
         [HttpGet("{id}")]
         public async Task<IActionResult> GetCourseById(int id)
         {
@@ -56,6 +59,7 @@ namespace StudentApp.Controllers
             return Ok(courseDto);
         }
 
+        [Authorize]
         [HttpPost]
         public async Task<IActionResult> AddCourse([FromBody] AddCourseRequestDto addCourseRequestDto)
         {
@@ -85,6 +89,7 @@ namespace StudentApp.Controllers
             return CreatedAtAction(nameof(GetCourseById), new {id = courseDto.Id}, courseDto);
         }
 
+        [Authorize]
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateCourse(int id, [FromBody] UpdateCourseRequestDto updatedCourseRequestDto)
         {
@@ -116,6 +121,7 @@ namespace StudentApp.Controllers
             return CreatedAtAction(nameof(GetCourseById), new {id = courseDto.Id}, courseDto);
         }
 
+        [Authorize]
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCourse(int id)
         {

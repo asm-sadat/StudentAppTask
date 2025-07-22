@@ -1,31 +1,47 @@
 [
   {
-    "ContainingType": "StudentApp.Controllers.AuthController",
-    "Method": "Login",
-    "RelativePath": "api/Auth/Login",
+    "ContainingType": "StudentApp.Controllers.BulkStudentController",
+    "Method": "AddBulkStudent",
+    "RelativePath": "api/BulkStudent/bulk",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "loginRequestDto",
-        "Type": "StudentApp.DTOs.AuthDTOs.LoginRequestDto",
+        "Name": "studentDtos",
+        "Type": "System.Collections.Generic.List\u00601[[StudentApp.DTOs.StudentDTOs.AddStudentRequestDto, StudentApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "StudentApp.Controllers.AuthController",
-    "Method": "Register",
-    "RelativePath": "api/Auth/Regiter",
-    "HttpMethod": "POST",
+    "ContainingType": "StudentApp.Controllers.BulkStudentController",
+    "Method": "UpdateBulkStudent",
+    "RelativePath": "api/BulkStudent/bulk",
+    "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "registerRequestDto",
-        "Type": "StudentApp.DTOs.AuthDTOs.RegisterRequestDtos",
+        "Name": "updateStudentDto",
+        "Type": "System.Collections.Generic.List\u00601[[StudentApp.DTOs.StudentDTOs.UpdateBulkStudentDto, StudentApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentApp.Controllers.BulkStudentController",
+    "Method": "DeleteBulkStudent",
+    "RelativePath": "api/BulkStudent/bulk",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idRequestDto",
+        "Type": "StudentApp.DTOs.StudentDTOs.IdRequestDto",
         "IsRequired": true
       }
     ],
