@@ -1,5 +1,53 @@
 [
   {
+    "ContainingType": "StudentApp.Controllers.BulkCourseController",
+    "Method": "AddBulkCourses",
+    "RelativePath": "api/BulkCourse/bulk",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseDtos",
+        "Type": "System.Collections.Generic.List\u00601[[StudentApp.DTOs.CourseDTOs.AddCourseRequestDto, StudentApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentApp.Controllers.BulkCourseController",
+    "Method": "UpdateBulkCourses",
+    "RelativePath": "api/BulkCourse/bulk",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateDtos",
+        "Type": "System.Collections.Generic.List\u00601[[StudentApp.DTOs.CourseDTOs.UpdateBulkCourseDto, StudentApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentApp.Controllers.BulkCourseController",
+    "Method": "DeleteBulkCourses",
+    "RelativePath": "api/BulkCourse/bulk",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idRequestDto",
+        "Type": "StudentApp.DTOs.CourseDTOs.CourseIdRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "StudentApp.Controllers.BulkStudentController",
     "Method": "AddBulkStudent",
     "RelativePath": "api/BulkStudent/bulk",

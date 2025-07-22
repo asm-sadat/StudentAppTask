@@ -1,4 +1,5 @@
 ﻿using Azure.Core;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -18,6 +19,7 @@ namespace StudentApp.Controllers
             _appDbContext = dbContext;
         }
 
+        [Authorize]
         [HttpPost("bulk")]
         public async Task<IActionResult> AddBulkStudent([FromBody] List<AddStudentRequestDto> studentDtos)
         {
@@ -38,6 +40,7 @@ namespace StudentApp.Controllers
             return Ok("Students added successfully!");
         }
 
+        [Authorize]
         [HttpPut("bulk")]
         public async Task<IActionResult> UpdateBulkStudent([FromBody] List<UpdateBulkStudentDto> updateStudentDto)
         {
@@ -64,6 +67,7 @@ namespace StudentApp.Controllers
             return Ok("Students updated successfully!");
         }
 
+        [Authorize]
         [HttpDelete("bulk")]
         public async Task<IActionResult> DeleteBulkStudent([FromBody] IdRequestDto idRequestDto)
         {
